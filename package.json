@@ -1,18 +1,28 @@
 {
-  "name": "mates-and-weights",
-  "version": "1.0.0",
+  "name": "aussie-nurse-app",
+  "version": "0.1.0",
   "private": true,
-  "description": "Aussie gym & lifetime milestone tracker",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.5.0",
-    "chart.js": "^4.4.1",
-    "next": "^15.5.3",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "@vercel/analytics": "^1.3.1",
+    "chart.js": "^4.4.4",
+    "lucide-react": "^0.446.0",
+    "next": "14.2.13",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.8",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2"
   }
 }
